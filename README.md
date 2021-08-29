@@ -1,23 +1,36 @@
-# Password Generator Starter Code
+# PassGen
 
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+## Table of Contents
+
+* [Purpose](#purpose)
+* [Technologies](#technologies)
+* [Preview](#preview)
+* [Contributions](#contributions)
+* [License](#license)
+
+## Purpose
+
+The purpose of this project was to create an application that generates a secure password between 8 and 128 characters on the basis of the choices that users are provided with through prompts.  
 
 
+## Technologies
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+* HTML
+* CSS
+* JavaScript
+
+
+## Preview
+
+https://benkaan001.github.io/PassGen/ 
+
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/88162275/131267416-daac9439-9d16-4901-880b-26aeb1fe16f1.png)
+
+## Contributions
+* **Prompts:** For a flawless user experience, provided the user with a series of prompts for password criteria. The initial prompt gives the user the opportunity to enter a valid numeric number in the case of a typing error. 
+* **Validation:** Validated user input to ensure the user has chosen at least one of the four different character types to be included in the password. 
+
+
+## License
+
+MIT @ [Ben Ata Kaan](https://github.com/benkaan001)
