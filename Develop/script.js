@@ -6,8 +6,8 @@ var symbols = '!@#$%^&*(){}[]<>?';
 var numbers = '0123456789';
 var upperCaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var lowerCaseLetters = 'abcdefghijklmnopqrstuvwxyz';
-var password = "";
-var finalPassword = "";
+//var password = "";
+//var finalPassword = "";
 
 //Create prompts 
 
