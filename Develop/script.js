@@ -65,7 +65,7 @@ function generatePassword() {
 
 // Create functions to generate different values
 
-function generateSymbols () {
+/*function generateSymbols () {
   var symbols = '!@#$%^&*(){}[]<>?';
   return symbols[Math.floor(Math.random() * symbols.length)];
 }
@@ -83,11 +83,22 @@ function generateUpperCaseLetters () {
 function generateLowerCaseLetters () {
   var lowerCaseLetters = 'abcdefghijklmnopqrstuvwxyz';
   return lowerCaseLetters[Math.floor(Math.random() * lowerCaseLetters.length)];
+} */
+
+
+
+for (var i = 0 ; i< userInputLength; i++) {
+  password = password + finalPassword[Math.floor(Math.random() * finalPassword.length)];
 }
 
+// resolve the issue in the iteration 
+console.log(userInputLength);
+console.log(password.length);
+console.log(finalPassword.length);
 
+return password;
 
-
+};
 
 
 
